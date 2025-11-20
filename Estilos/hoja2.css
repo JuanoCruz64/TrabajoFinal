@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("../Imagenes/img2.jpeg");
+  background-image: url("../Imagenes/img3.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -51,6 +51,9 @@ details.toggle[open] summary::after {
 
 .lista-secciones {
   margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .lista-secciones li {
@@ -110,4 +113,16 @@ footer {
   text-decoration: underline;
 }
 
+.lista-secciones li {
+  margin: 5px 0;
+}
 
+.lista-secciones a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.lista-secciones a:hover {
+  color: red;
+  text-decoration: underline;
+}
