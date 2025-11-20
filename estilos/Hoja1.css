@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url("imagenes\Yale_Art_and_Architecture_Building,_October_20,_2008.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4); /* oscurece la imagen */
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  background-color: #444;
+}
+
+nav a {
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+main {
+  padding: 20px;
+}
+
+.contenedor {
+    display: flex;          /* Activa la alineación horizontal */
+    gap: 20px;              /* Espacio entre secciones */
+}
+
+.seccion {
+    background: #eaeaea;
+    padding: 20px;
+    flex: 1;                /* Todas toman el mismo ancho */
+    border-radius: 5px;
+}
+
+.program {
+  margin-bottom: 30px;
+}
+
+.program h3 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.year-list {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.resources {
+  margin-top: 40px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.resources ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resources li {
+  margin-bottom: 5px;
+}
+
+/* Hero header con imagen de fondo */
+.hero {
+  position: relative;
+  background-image: ("imagenes\Yale_University_Art_Gallery_7604__New_Haven__2015.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+.hero h1,
+.hero p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+.hero p {
+  font-size: 1rem;
+  opacity: 0.95;
+}
