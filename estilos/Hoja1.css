@@ -1,6 +1,11 @@
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
 body {
   
-  background-image: url("../Imagenes/img2.jpeg");
+  background-image: url("../Imagenes/FondoHeader.jpg");
   background-size: cover;    
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +43,7 @@ main {
   margin: 20px auto;
 }
 
-h1, h2, h3 {
+h2, h3 {
   color: #002654;
 }
 
@@ -92,3 +97,23 @@ details.toggle ul li a {
 details.toggle ul li a:hover {
   color: red;
 }
+table {
+   border-collapse: collapse; 
+   width: 90%; } 
+   td { 
+    border: 1px   rgba(255, 255, 255, 0.75); 
+    padding: 10px; 
+    text-align: left
+   }
+
+  .DG {
+    width: 500px;
+    height: 350px;
+    border: 1px rgba(255, 255, 255, 0.75);
+    overflow: auto;}
+
+  .PG {
+    width: 500px;
+    height: 350px;
+    border: 1px rgba(255, 255, 255, 0.75);
+    overflow: auto;}

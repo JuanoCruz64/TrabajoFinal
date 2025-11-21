@@ -10,8 +10,10 @@ body {
 
 header {
   text-align: center;
+  background-image: url("imagenes\img1.png");
   padding: 40px 20px;
   background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
 }
 
 header h1 {
